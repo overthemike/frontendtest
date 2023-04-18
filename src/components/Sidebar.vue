@@ -1,19 +1,23 @@
 <script setup>
 import useBoard from "../store";
-import { ref, onMounted } from "vue";
+import { ref, onMounted, onUnmounted } from "vue";
 
 const { boardState } = useBoard();
 
 const clicklist = ref(null);
 
-onMounted(() => {
-  const observer = new MutationObserver(() => {
-    clicklist.value.scrollTop = clicklist.value.scrollHeight;
-  });
+const observer = new MutationObserver(() => {
+  clicklist.value.scrollTop = clicklist.value.scrollHeight;
+});
 
+onMounted(() => {
   observer.observe(clicklist.value, {
     childList: true,
   });
+});
+
+onUnmounted(() => {
+  observer.disconnect();
 });
 </script>
 
