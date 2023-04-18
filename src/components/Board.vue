@@ -2,7 +2,7 @@
 import useBoard from "../store";
 
 const letters = "abcdefgh".split("");
-let squares = [];
+const squares = [];
 
 for (let i = 8; i > 0; i--) {
   for (let j = 0; j < 8; j++) {

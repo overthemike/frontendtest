@@ -59,10 +59,4 @@ h1 {
 .sidebar li {
   padding: 0.5rem;
 }
-
-@media (max-width: 1200px) {
-  .sidebar {
-    flex-grow: 1;
-  }
-}
 </style>
