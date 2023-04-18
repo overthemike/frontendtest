@@ -1,0 +1,37 @@
+:root {
+  font-size: 14px;
+
+  /* chessboard vars */
+  --white-box-color: #ccc;
+  --black-box-color: #666;
+  --white-box-text-color: #333;
+  --black-box-text-color: #ddd;
+  --active-box-border-color: rgba(255, 0, 0, 0.5);
+  --active-box-background-color: rgba(255, 0, 0, 0.5);
+
+  /* sidebar vars */
+  --sidebar-bg: #333;
+  --sidebar-heading-color: #fff;
+  --sidebar-heading-bg: #222;
+  --sidebar-heading-font: 2rem Verdana, sans-serif;
+  --sidebar-text-color: #fff;
+  --sidebar-font: 1.2rem Verdana, sans-serif;
+}
+
+/* @media (prefers-color-scheme: dark) {
+  :root {
+    --background-raw: 65, 65, 65;
+    --background: rgb(var(--background-raw));
+    --text-color: rgba(255, 255, 255, 0.65);
+    --heading-color: rgba(255, 255, 255, 0.85);
+    --disabled: rgba(255, 255, 255, 0.25);
+    --primary-raw: 50, 113, 150;
+    --primary: rgb(var(--primary-raw));
+    --dark-raw: 35, 35, 35;
+    --dark: rgb(var(--dark-raw));
+    --light-raw: 241, 241, 241;
+    --light: rgb(var(--light-raw));
+    --secondary-raw: 144, 150, 155;
+    --secondary: rgb(var(--secondary-raw));
+  }
+} */
