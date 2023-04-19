@@ -43,12 +43,9 @@ const { boardState, setActiveSquare } = useBoard();
 .box {
   background-color: var(--white-box-color);
   color: var(--white-box-text-color);
-  padding: 5px;
   cursor: pointer;
   border: 2px solid transparent;
   position: relative;
-  display: grid;
-  place-items: center;
   font-size: 1.5rem;
 }
 
@@ -83,57 +80,49 @@ const { boardState, setActiveSquare } = useBoard();
   content: "8";
   position: absolute;
   color: var(--white-box-text-color);
-  top: 5px;
-  left: 5px;
+  padding: 5px 0 0 5px;
 }
 #a7::before {
   content: "7";
   position: absolute;
   color: var(--black-box-text-color);
-  top: 5px;
-  left: 5px;
+  padding: 5px 0 0 5px;
 }
 #a6::before {
   content: "6";
   position: absolute;
   color: var(--white-box-text-color);
-  top: 5px;
-  left: 5px;
+  padding: 5px 0 0 5px;
 }
 #a5::before {
   content: "5";
   position: absolute;
   color: var(--black-box-text-color);
-  top: 5px;
-  left: 5px;
+  padding: 5px 0 0 5px;
 }
 #a4::before {
   content: "4";
   position: absolute;
   color: var(--white-box-text-color);
-  top: 5px;
-  left: 5px;
+  padding: 5px 0 0 5px;
 }
 #a3::before {
   content: "3";
   position: absolute;
   color: var(--black-box-text-color);
-  top: 5px;
-  left: 5px;
+  padding: 5px 0 0 5px;
 }
 #a2::before {
   content: "2";
   position: absolute;
   color: var(--white-box-text-color);
-  top: 5px;
-  left: 5px;
+  padding: 5px 0 0 5px;
 }
 #a1::before {
   content: "1";
   position: absolute;
   color: var(--black-box-text-color);
-  top: 5px;
-  left: 5px;
+  padding: 5px 0 0 5px;
 }
 
 #a1::after {
